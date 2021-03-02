@@ -491,7 +491,7 @@
 
 .section_footer {
  width: 450px;
- margin: 0 auto;
+ margin: 0 auto 30px;
  display: flex;
  /* grid-auto-columns: auto auto; */
  align-items: center;
@@ -721,7 +721,7 @@ html .ui-button.ui-state-disabled:active {
 
 .wizard-page {
  margin: 0px;
- overflow: hidden;
+ overflow-x: hidden;
 }
 
 .ui-progressbar-value {
