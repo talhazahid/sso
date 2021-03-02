@@ -7,9 +7,19 @@
  <title>Document</title>
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+ <link rel='stylesheet'
+  href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css'>
+ <link rel='stylesheet'
+  href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css'>
+
+
  <link href="css/main.css" rel="stylesheet">
 
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
@@ -18,19 +28,21 @@
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
   integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
 
+
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js'></script>
  <script src="js/custom.js"></script>
+ <script src="js/jQuery-plugin-progressbar.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+ <script src="js/jquery.countup.js"></script>
 
 
 </head>
 
 <body>
-
+ <!-- main wrapper starts-->
  <div class="container">
 
   <header>
-
-
-
    <div class="container">
 
     <div class="header-row">
@@ -44,9 +56,11 @@
        <li><a href="#" data-item='How it works'> How it works</a></li>
        <li><a href="#" data-item='About SSO'> About SSO</a></li>
        <li><a href="#" data-item='Need help?'> Need help?</a></li>
-       <li><a href="#" class="primary-btn">
+       <li>
+        <a href="wizard.html" class="primary-btn">
          <span> Get A Quote <img src="images/btn-right-arrow.svg"> </span>
-        </a></li>
+        </a>
+       </li>
 
       </ul>
 
@@ -54,8 +68,6 @@
     </div>
 
    </div>
-
-
   </header>
 
 
@@ -91,7 +103,7 @@
 
        <div class="hero-main-cta">
 
-        <button class="primary-btn">
+        <button onclick="location.href='wizard.html'" type="button" class="primary-btn">
          <span> Get A Quote <img src="images/btn-right-arrow.svg"> </span>
         </button>
 
@@ -132,8 +144,435 @@
   </section>
 
 
+  <section class="how-it-works">
 
+
+   <h2 class="section-heading text-center">
+    How SSO Works
+   </h2>
+
+
+
+
+   <div class="row">
+
+    <div class="col-lg-12">
+
+     <div class="how-it-works-row">
+
+      <div class="how-it-works-content-box">
+       <div>
+        <img src="images/tell-us-what-you-need.png">
+       </div>
+       <h3>Tell us what you need</h3>
+       <div>A Stored account is free and you easily add the things you want saved by taking a photo. Do you need
+        packaging? Order free home delivery in your account.</div>
+      </div>
+
+
+
+
+      <div class="how-it-works-content-box">
+       <div>
+        <img src="images/compare-prices.png">
+       </div>
+       <h3>Compare Prices</h3>
+       <div>Drop the car or trailer, we pick up where you are and return what you need without having to lift a finger,
+        whenever you need it.</div>
+      </div>
+
+
+
+
+
+      <div class="how-it-works-content-box">
+       <div>
+        <img src="images/book-online.png">
+       </div>
+       <h3>Book Online</h3>
+       <div>A Stored account is free and you easily add the things you want saved by taking a photo. Do you need
+        packaging? Order free home delivery in your account.</div>
+      </div>
+
+     </div>
+
+    </div>
+
+
+    <div class="row">
+
+     <div class="col-lg-12">
+      <div class="mx-auto">
+       <a href="#" class="primary-btn full-row-center-btn">
+        <span> Get A Quote <img src="images/btn-right-arrow.svg"> </span>
+       </a>
+      </div>
+     </div>
+
+    </div>
+
+
+
+   </div>
+
+
+  </section>
+
+  <section class="special-offers">
+   <h2 class="section-heading">
+    How SSO Works
+   </h2>
+
+   <p>
+    Discover this month's special offers on self storage units with even bigger savings - for a limited time only!
+   </p>
+
+
+   <div class="special-offers-row">
+
+    <div class="special-offer-box">
+     <div class="special-offer-image">
+
+      <div class="sqft-details">25 <span>sqft</span></div>
+      <img src="images/special-offer-25unit.jpg">
+
+     </div>
+
+     <div class="special-offer-bottom-section">
+      <div class="special-offer-postcode-unit-booking-box">
+
+       <div class="special-offer-postcode-unit-booking-box-left-column">
+        <div class="mile-details">
+         less than 1 mile
+        </div>
+        <div class="post-code">
+         DE23 8WJ
+        </div>
+        <div class="rating-row">
+         <img src="images/rating-4.svg">
+        </div>
+       </div>
+
+       <div class="special-offer-postcode-unit-booking-box-right-column">
+
+        <div class="booking-progress-bar " data-percent="87" data-duration="1000" data-color="#ccc,#0ABDE3">
+        </div>
+
+
+
+       </div>
+
+
+      </div>
+      <div class="divider"></div>
+
+
+      <div class="special-offer-prices-section">
+
+       <div class="special-offer-prices-left-section">
+        <div>RRP from</div>
+        <div>£85.99</div>
+       </div>
+
+
+       <div class="special-offer-prices-right-section">
+        <div>SSO Price</div>
+        <div>£65.99</div>
+        <div>Avg. saving £25.99</div>
+       </div>
+      </div>
+
+
+
+      <div><a href="#" class="primary-btn">
+        <span> Available deal <img src="images/btn-right-arrow.svg"> </span>
+       </a></div>
+
+
+
+     </div>
+
+    </div>
+    <div class="special-offer-box">
+     <div class="special-offer-image">
+
+      <div class="sqft-details">50 <span>sqft</span></div>
+      <img src="images/special-offer-50unit.jpg">
+
+     </div>
+
+     <div class="special-offer-bottom-section">
+      <div class="special-offer-postcode-unit-booking-box">
+
+       <div class="special-offer-postcode-unit-booking-box-left-column">
+        <div class="mile-details">
+         less than 1 mile
+        </div>
+        <div class="post-code">
+         DE23 8WJ
+        </div>
+        <div class="rating-row">
+         <img src="images/rating-4.svg">
+        </div>
+       </div>
+
+       <div class="special-offer-postcode-unit-booking-box-right-column">
+
+        <div class="booking-progress-bar " data-percent="97" data-duration="1000" data-color="#ccc,#EE5253">
+        </div>
+
+
+
+       </div>
+
+
+      </div>
+      <div class="divider"></div>
+
+
+      <div class="special-offer-prices-section">
+
+       <div class="special-offer-prices-left-section">
+        <div>RRP from</div>
+        <div>£85.99</div>
+       </div>
+
+
+       <div class="special-offer-prices-right-section">
+        <div>SSO Price</div>
+        <div>£65.99</div>
+        <div>Avg. saving £25.99</div>
+       </div>
+      </div>
+
+
+
+      <div><a href="#" class="primary-btn">
+        <span> Available deal <img src="images/btn-right-arrow.svg"> </span>
+       </a></div>
+
+
+
+     </div>
+
+    </div>
+    <div class="special-offer-box">
+     <div class="special-offer-image">
+
+      <div class="sqft-details">100 <span>sqft</span></div>
+      <img src="images/special-offer-100unit.jpg">
+
+     </div>
+
+     <div class="special-offer-bottom-section">
+      <div class="special-offer-postcode-unit-booking-box">
+
+       <div class="special-offer-postcode-unit-booking-box-left-column">
+        <div class="mile-details">
+         less than 1 mile
+        </div>
+        <div class="post-code">
+         DE23 8WJ
+        </div>
+        <div class="rating-row">
+         <img src="images/rating-4.svg">
+        </div>
+       </div>
+
+       <div class="special-offer-postcode-unit-booking-box-right-column">
+
+        <div class="booking-progress-bar " data-percent="65" data-duration="1000" data-color="#ccc,#0ABDE3">
+        </div>
+
+
+
+       </div>
+
+
+      </div>
+      <div class="divider"></div>
+
+
+      <div class="special-offer-prices-section">
+
+       <div class="special-offer-prices-left-section">
+        <div>RRP from</div>
+        <div>£85.99</div>
+       </div>
+
+
+       <div class="special-offer-prices-right-section">
+        <div>SSO Price</div>
+        <div>£65.99</div>
+        <div>Avg. saving £25.99</div>
+       </div>
+      </div>
+
+
+
+      <div><a href="#" class="primary-btn">
+        <span> Available deal <img src="images/btn-right-arrow.svg"> </span>
+       </a></div>
+
+
+
+     </div>
+
+    </div>
+
+
+
+
+
+   </div>
+
+  </section>
+
+
+  <!-- main wrapper ends-->
  </div>
+
+
+
+ <section class="website-stats-row">
+
+  <div class="website-stats-box">
+   <div class="website-stats-image-box"><img src="images/icon-customers.svg"></div>
+   <div class="website-stats-main-heading counter">52,000</div>
+   <div class="website-stats-small-txt">Customers served nationwide</div>
+  </div>
+
+
+
+
+
+  <div class="website-stats-box">
+   <div class="website-stats-image-box"><img src="images/icon-package.svg"></div>
+   <div class="website-stats-main-heading"><span class="counter">3.4</span> million</div>
+   <div class="website-stats-small-txt">Items stored</div>
+  </div>
+
+  <div class="website-stats-box">
+   <div class="website-stats-image-box"><img src="images/icon-satisfaction.svg"></div>
+   <div class="website-stats-main-heading"><span class="counter">92</span>%</div>
+   <div class="website-stats-small-txt">Customer satisfaction</div>
+  </div>
+
+
+ </section>
+
+
+
+
+ <section class="slider">
+
+  <div>
+   <div class="outer">
+    <div id="big" class="owl-carousel owl-theme">
+     <div class="item">
+      <img src="images/slider-img1.png">
+     </div>
+     <div class="item">
+      <img src="images/slider-img1.png">
+     </div>
+     <div class="item">
+      <img src="images/slider-img1.png">
+     </div>
+     <div class="item">
+      <img src="images/slider-img1.png">
+     </div>
+     <div class="item">
+      <img src="images/slider-img1.png">
+     </div>
+
+    </div>
+    <div id="thumbs" class="owl-carousel owl-theme">
+
+
+     <div class="item">
+      <div class="slider-main-text">
+       We get you the best quote for your specific storage from thousands of units
+      </div>
+
+      <div class="slider-btn">
+       <a href="#" class="primary-btn">
+        <span> Get A Quote <img src="images/btn-right-arrow.svg"> </span>
+       </a>
+      </div>
+     </div>
+     <div class="item">
+      <div class="slider-main-text">
+       We get you the best quote for your specific storage from thousands of units
+      </div>
+
+      <div class="slider-btn">
+       <a href="#" class="primary-btn">
+        <span> Get A Quote <img src="images/btn-right-arrow.svg"> </span>
+       </a>
+      </div>
+     </div>
+     <div class="item">
+      <div class="slider-main-text">
+       We get you the best quote for your specific storage from thousands of units
+      </div>
+
+      <div class="slider-btn">
+       <a href="#" class="primary-btn">
+        <span> Get A Quote <img src="images/btn-right-arrow.svg"> </span>
+       </a>
+      </div>
+     </div>
+     <div class="item">
+      <div class="slider-main-text">
+       We get you the best quote for your specific storage from thousands of units
+      </div>
+
+      <div class="slider-btn">
+       <a href="#" class="primary-btn">
+        <span> Get A Quote <img src="images/btn-right-arrow.svg"> </span>
+       </a>
+      </div>
+     </div>
+     <div class="item">
+      <div class="slider-main-text">
+       We get you the best quote for your specific storage from thousands of units
+      </div>
+
+      <div class="slider-btn">
+       <a href="#" class="primary-btn">
+        <span> Get A Quote <img src="images/btn-right-arrow.svg"> </span>
+       </a>
+      </div>
+     </div>
+
+
+
+
+
+
+
+
+    </div>
+   </div>
+  </div>
+  <div></div>
+
+ </section>
+
+
+ <br>
+ <br>
+
+
+
+
+ <script>
+  $(".booking-progress-bar").loading();
+ </script>
+
+ <script>
+  $('.counter').countUp();
+ </script>
 
 </body>
 

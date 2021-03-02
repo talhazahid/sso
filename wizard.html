@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+
+ <title>Document</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+
+ <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'>
+
+
+ <link rel='stylesheet' href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css'>
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+  integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+
+ <script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+
+
+
+ <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body class="wizard-page">
+
+ <div class="container-fluid p-0 wizard">
+  <div class="section_header">
+   <div class="wizard-steps-heading">Step 1 of 4</div>
+   <div class="progress_container">
+    <div class="bar"></div>
+   </div>
+  </div>
+  <div class="section_slider">
+   <div class="slider_step" chapter=0>
+
+
+    <div class="wizard-step-heading">
+     Your storage needs
+    </div>
+
+    <div class="wizard-step-content">
+     <div class="wizard-step-semi-heading">
+      Type of storage
+     </div>
+     <div class="types-of-storage-row">
+
+      <div class="select-option-box">
+       <div class="wizard-checkbox-text">
+        Home
+       </div>
+       <input type="checkbox" id="home" />
+       <label for="home">
+        <svg viewBox="0,0,50,50">
+         <path d="M5 30 L 20 45 L 45 5"></path>
+        </svg>
+       </label>
+      </div>
+      <div class="select-option-box  ">
+       <div class="wizard-checkbox-text">
+        Business
+       </div>
+       <input type="checkbox" id="business" />
+       <label for="business">
+        <svg viewBox="0,0,50,50">
+         <path d="M5 30 L 20 45 L 45 5"></path>
+        </svg>
+       </label>
+      </div>
+      <div class="select-option-box ">
+       <div class="wizard-checkbox-text">
+        Student
+       </div>
+
+       <input type="checkbox" id="student" />
+       <label for="student">
+
+        <svg viewBox="0,0,50,50">
+         <path d="M5 30 L 20 45 L 45 5"></path>
+        </svg>
+       </label>
+      </div>
+
+
+     </div>
+    </div>
+
+
+
+    <div class="wizard-step-content wizard-select-dropdown">
+     <div class="select-material">
+      <select class="select-text" required>
+       <option value="" disabled selected></option>
+       <option value="1">I am going abroad</option>
+       <option value="2">Option 2</option>
+       <option value="3">Option 3</option>
+      </select>
+      <span class="select-highlight"></span>
+      <span class="select-bar"></span>
+      <label class="select-label">Reason for storage ?</label>
+     </div>
+    </div>
+
+
+    <div class="wizard-step-content wizard-select-dropdown">
+     <div class="select-material">
+      <select class="select-text" required>
+       <option value="" disabled selected></option>
+       <option value="1">Storage duration ?</option>
+       <option value="2">Less than 6 months</option>
+       <option value="3">More than 6 months</option>
+      </select>
+      <span class="select-highlight"></span>
+      <span class="select-bar"></span>
+      <label class="select-label">Storage duration ?</label>
+     </div>
+    </div>
+
+
+
+
+   </div>
+
+
+
+   <div class="slider_step" chapter=1>
+
+    <div class="wizard-step-heading">
+     Estimate how much space you’ll need.
+    </div>
+
+
+    <div class="wizard-step-units-wrapper">
+
+     <div class="store-unit-images">
+      <img src="images/unit-image.png">
+     </div>
+
+
+
+     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner unit-slider">
+       <div class="carousel-item active">
+        <div class="unit-slider-grid">
+         <a href="#" class="unit-box">
+          <div class="unit-number">12 <span>sqft</span></div>
+          <div class="unit-description">Closet space</div>
+         </a>
+         <a href="#" class="unit-box">
+          <div class="unit-number">12 <span>sqft</span></div>
+          <div class="unit-description">Closet space</div>
+         </a>
+         <a href="#" class="unit-box">
+          <div class="unit-number">12 <span>sqft</span></div>
+          <div class="unit-description">Closet space</div>
+         </a>
+         <a href="#" class="unit-box">
+          <div class="unit-number">12 <span>sqft</span></div>
+          <div class="unit-description">Closet space</div>
+         </a>
+         <a href="#" class="unit-box">
+          <div class="unit-number">12 <span>sqft</span></div>
+          <div class="unit-description">Closet space</div>
+         </a>
+         <a href="#" class="unit-box">
+          <div class="unit-number">12 <span>sqft</span></div>
+          <div class="unit-description">Closet space</div>
+         </a>
+
+
+        </div>
+       </div>
+       <div class="carousel-item">
+        <div class="unit-slider-grid">
+         <a href="#" class="unit-box">
+          <div class="unit-number">12 <span>sqft</span></div>
+          <div class="unit-description">Closet space</div>
+         </a>
+         <a href="#" class="unit-box">
+          <div class="unit-number">12 <span>sqft</span></div>
+          <div class="unit-description">Closet space</div>
+         </a>
+         <a href="#" class="unit-box">
+          <div class="unit-number">12 <span>sqft</span></div>
+          <div class="unit-description">Closet space</div>
+         </a>
+         <a href="#" class="unit-box">
+          <div class="unit-number">12 <span>sqft</span></div>
+          <div class="unit-description">Closet space</div>
+         </a>
+         <a href="#" class="unit-box">
+          <div class="unit-number">12 <span>sqft</span></div>
+          <div class="unit-description">Closet space</div>
+         </a>
+         <a href="#" class="unit-box">
+          <div class="unit-number">12 <span>sqft</span></div>
+          <div class="unit-description">Closet space</div>
+         </a>
+
+
+        </div>
+       </div>
+       <div class="carousel-item">
+        <div class="unit-slider-grid">
+         <a href="#" class="unit-box">
+          <div class="unit-number">12 <span>sqft</span></div>
+          <div class="unit-description">Closet space</div>
+         </a>
+         <a href="#" class="unit-box">
+          <div class="unit-number">12 <span>sqft</span></div>
+          <div class="unit-description">Closet space</div>
+         </a>
+         <a href="#" class="unit-box">
+          <div class="unit-number">12 <span>sqft</span></div>
+          <div class="unit-description">Closet space</div>
+         </a>
+         <a href="#" class="unit-box">
+          <div class="unit-number">12 <span>sqft</span></div>
+          <div class="unit-description">Closet space</div>
+         </a>
+         <a href="#" class="unit-box">
+          <div class="unit-number">12 <span>sqft</span></div>
+          <div class="unit-description">Closet space</div>
+         </a>
+         <a href="#" class="unit-box">
+          <div class="unit-number">12 <span>sqft</span></div>
+          <div class="unit-description">Closet space</div>
+         </a>
+
+
+        </div>
+       </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+       data-bs-slide="prev">
+
+       <span class=""> <img src="images/slider-icon-arrow-left.svg"> </span>
+      </button>
+
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+       data-bs-slide="next">
+
+       <span class=""> <img src="images/slider-icon-arrow-right.svg"> </span>
+      </button>
+     </div>
+
+
+
+
+    </div>
+
+    <div class="unit-help-text-row">
+     <div class="unit-help-text-row-heading">Not sure how much space you need?</div>
+
+
+     <p>
+      We get that it's not always easy to know how much space you need, so we've come up with a clever
+      <a href="#">
+       space calculator
+      </a> to help you figure it out. If you prefer to speak with a storage agent, please call at 0800 061 4091
+     </p>
+
+
+    </div>
+
+
+
+
+
+
+   </div>
+
+   <div class="slider_step" chapter=2>
+    <div class="wizard-step-heading">
+     Can we help you pack?
+    </div>
+
+    <div class="wizard-step-content">
+
+
+     <div class="packing-row">
+      <div>
+       <div class="packing-row-heading">No, I'll do it myself</div>
+      </div>
+      <div>
+       <ul>
+        <li>Do-it-yourself</li>
+        <li>Our team will meet you curbside to load them into our truck.</li>
+       </ul>
+      </div>
+
+      <div class="tick-box">
+       <input type="checkbox" id="tick-checkbox" />
+       <label for="tick-checkbox">
+        <svg viewBox="0,0,50,50">
+         <path d="M5 30 L 20 45 L 45 5"></path>
+        </svg>
+       </label>
+      </div>
+     </div>
+
+
+
+     <div class="packing-row">
+      <div>
+       <div class="packing-row-heading">Yes, I need help</div>
+       <div class="packing-row-per-hour">$20/hr</div>
+
+      </div>
+      <div>
+       <ul>
+        <li>2 Professional movers</li>
+        <li>Furniture disassembly</li>
+        <li>Unlimited packing supplies</li>
+       </ul>
+      </div>
+
+
+      <div class="tick-box">
+       <input type="checkbox" id="tick-checkbox-two" />
+       <label for="tick-checkbox-two">
+        <svg viewBox="0,0,50,50">
+         <path d="M5 30 L 20 45 L 45 5"></path>
+        </svg>
+       </label>
+      </div>
+
+
+     </div>
+
+
+
+     <div class="packing-row default-selected mb-0 ">
+      <div>
+       <div class="packing-row-heading">Moving</div>
+       <div class="packing-row-free">Free</div>
+      </div>
+
+      <div>
+       <ul>
+        <li>Do-it-yourself</li>
+        <li>Our team will meet you curbside to load them into our truck.</li>
+       </ul>
+      </div>
+
+      <div class="tick-box">
+       <input type="checkbox" id="tick-checkbox" />
+       <label for="tick-checkbox">
+        <svg viewBox="0,0,50,50">
+         <path d="M5 30 L 20 45 L 45 5"></path>
+        </svg>
+       </label>
+      </div>
+
+
+      <div class="included-banner">
+       Included
+      </div>
+
+
+     </div>
+
+     <div class="act-now-fomo">
+      Act now! Free appointments are limited.
+     </div>
+
+
+
+
+    </div>
+
+
+
+   </div>
+
+
+   <div class="slider_step" chapter=3>
+
+    <div class="wizard-step-heading">
+     Unlock Your Exclusive Deal.
+    </div>
+
+    <div class="wizard-step-content">
+
+
+     <div class="profile-details-row">
+
+
+
+      <div class="form-row">
+
+       <div class="group">
+        <input type="text" required="">
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Full Name</label>
+       </div>
+
+      </div>
+
+
+
+
+
+      <div class="form-row">
+
+       <div class="group">
+        <input type="text" required="">
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Email Address</label>
+       </div>
+
+      </div>
+
+
+      <div class="form-row">
+
+       <div class="group">
+        <input type="text" required="">
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Phone Number</label>
+       </div>
+
+      </div>
+
+      <div class="form-row">
+
+       <div class="group mb-0">
+        <input type="text" required="">
+        <span class="highlight"></span>
+        <span class="bar"></span>
+        <label>Postcode</label>
+       </div>
+
+      </div>
+     </div>
+
+
+    </div>
+
+
+   </div>
+
+
+
+
+
+   <div class="slider_step" chapter=4>
+
+    <div class="wizard-step-content">
+     <div class="cube">
+      <div class="sides">
+       <div class="top"></div>
+       <div class="right"></div>
+       <div class="bottom"></div>
+       <div class="left"></div>
+       <div class="front"></div>
+       <div class="back"></div>
+      </div>
+     </div>
+     <div class="text">Finding Best Deals</div>
+
+
+    </div>
+
+   </div>
+
+
+
+
+  </div>
+
+
+
+  <div class="section_footer">
+   <div class="button back">
+    <img src="images/back-btn-arrow.svg">
+    Previous
+   </div>
+
+   <a href="#" class="primary-btn button next">
+    <span> Next <img src="images/btn-right-arrow.svg"> </span>
+   </a>
+
+
+  </div>
+
+ </div>
+ <!-- partial -->
+
+ <script src='https://www.estelzhao.com/app/codepen/js/slick.js'></script>
+ <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+ <script>
+
+  $('.carousel').carousel({
+   interval: 2000
+  })
+
+
+ </script>
+
+ <script src="js/wizard.js"> </script>
+
+
+
+
+ <script>
+  // $('.select-text').on('change', function () {
+  //  var content = $('.wizard-select-dropdown')
+  //  content.addClass('checkbox-box-selected')
+  // })
+ </script>
+
+ <script>
+  $(function () {
+   $('.wizard-select-dropdown').click(function () { // when a .myDiv is clicked
+    $('.wizard-select-dropdown.row-selected').removeClass('row-selected').addClass('not-active'); // replace former active with not-active
+    $(this).removeClass('not-active').addClass('row-selected'); // add class active to current element instead of class not-active
+   })
+  })
+
+
+  $(function () {
+   $('.select-option-box').click(function () { // when a .myDiv is clicked
+    $('.select-option-box.checkbox-box-selected').removeClass('checkbox-box-selected').addClass('not-active'); // replace former active with not-active
+    $(this).removeClass('not-active').addClass('checkbox-box-selected'); // add class active to current element instead of class not-active
+   })
+  })
+
+
+
+  $(function () {
+   $('.unit-box').click(function () { // when a .myDiv is clicked
+    $('.unit-box.checkbox-box-selected').removeClass('checkbox-box-selected').addClass('not-active'); // replace former active with not-active
+    $(this).removeClass('not-active').addClass('checkbox-box-selected'); // add class active to current element instead of class not-active
+   })
+  })
+
+
+  $(function () {
+   $('.packing-row').click(function () { // when a .myDiv is clicked
+    $('.packing-row.row-selected').removeClass('row-selected').addClass('not-active'); // replace former active with not-active
+    $(this).removeClass('not-active').addClass('row-selected'); // add class active to current element instead of class not-active
+   })
+  })
+ </script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
